@@ -1,0 +1,51 @@
+{
+  "name": "bit-cm",
+  "version": "0.0.1",
+  "description": "manager branch of bitbucket  manager",
+  "main": "lib/binaries/CLI.js",
+  "engines": {
+    "node": ">=12"
+  },
+  "bin": {
+    "bcm": "bin/bit-cm"
+  },
+  "repository": "https://github.com/lcnghia95/bit-cm",
+  "bugs": {
+    "url": "https://github.com/lcnghia95/bit-cm/issues"
+  },
+  "author": "Le Cong Nghia <lcnghia95@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "bit-cm",
+    "branch",
+    "bitbucket",
+    "bitbucket remote branch",
+    "bitbucket branch manager"
+  ],
+  "scripts": {
+    "huskyinstall": "husky install",
+    "huskyinit": "npx husky add .husky/pre-commit \"yarn lint:staged\"",
+    "lint": "eslint \"**/*.js\" --fix",
+    "format": "prettier --write \"**/*.js\" \"**/*.json\"",
+    "lint:staged": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js}": [
+      "yarn format",
+      "yarn lint"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.1",
+    "cli-table": "^0.3.6",
+    "commander": "^8.0.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
+    "prettier": "^1.19.1"
+  }
+}
