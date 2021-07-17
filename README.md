@@ -10,7 +10,7 @@ This CLI follow [Bitbucket API](https://developer.atlassian.com/bitbucket/api/2/
 
 # Install
 You need install [nodejs](https://nodejs.org/). 
-Make sure nodejs was installed `( node>= 12)`
+Make sure nodejs was installed `(node>= 12)`
 ```bash
 $ node -v
 $ npm -v
