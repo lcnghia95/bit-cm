@@ -1,6 +1,6 @@
 {
   "name": "bit-cm",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "manager branch of bitbucket  manager",
   "main": "lib/binaries/CLI.js",
   "engines": {

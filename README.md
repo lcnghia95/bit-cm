@@ -166,7 +166,7 @@ $ rm -rf ~/.bcm
 
 ### 6. Merge pull request
 - This command will merge your pull request by id
-- Command: `bcm merge|m <repo> <pullId>`
+- Command: `bcm merge|m <repo|aliasId> <pullId>`
 - Examples:
 	+ Full command:
 		```bash
@@ -174,7 +174,7 @@ $ rm -rf ~/.bcm
 		```
 	+ Short command:
 		```bash
-		$ bcm m test repo 25
+		$ bcm m 2 25
 		```
 
 # End
