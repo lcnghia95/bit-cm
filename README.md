@@ -33,6 +33,7 @@ $ rm -rf ~/.bcm
 
 # Setup your config 
 - Make sure your basic authentication bitbucket is set up
+	Follow [this](https://bitbucket.org/account/settings/app-passwords/) to get your password
 	```bash
 	$ bcm set --basic-auth-username <username> 
 	$ bcm set --basic-auth-password <password> 
